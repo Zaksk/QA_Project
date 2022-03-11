@@ -113,4 +113,4 @@ You can also view users' post history by navigating as shown below:
 
 ### Future improvements 
 
-In future sprints, in addition to fixing some of the issues identified with the current version, I would like to add an option to allow users to amend their account details, as well as, purchase and leave reviews under products bought. I would also be looking to allow users to delete their accounts in case they decide to do so.
+In future sprints, in addition to fixing some of the issues identified with the current version, I would like to add an option to allow users to amend their account details, as well as, purchase and leave reviews under products bought. I would also be looking to allow users to delete their accounts in case they decide to do so. 
