@@ -1,0 +1,45 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+    %}
+    <h1 align="center">{% block header %}Home Page{% endblock %}</h1>
+    <div id="products">
+      {% for product in products %}
+      <div class="card border-dark">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            {{product.category}}:
+            {{product.title}}
+          
+          {% if user.id == product.author %}
+          <div class="btn-group">
+            <button
+              type="button"
+              class="btn btn-sm btn-light dropdown-toggle"
+              data-bs-toggle="dropdown"
+            ></button>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/delete_product/{{product.id}}" class="dropdown-item">Delete</a>
+                <a href="/update_product/{{product.id}}" class="dropdown-item">Update</a>
+              </li>
+            </ul>
+          </div>
+          {% endif %}
+        </div>
+        <div class="card-body">
+          <div class="card-text">{{product.text}}</div>
+          <div class="card-text">Price: £{{product.price}}</div>
+        </div>
+        <div class="card-footer text-muted">{{product.date_created}} - Created by: {{product.user.username}}</div>
+      </div>
+       <br />{% endfor %}
+
+    </div>
+
+    {% block footer %}
+    <div align="center">
+      <a href="/add_product"
+        ><button type="submit" class="btn btn-primary">
+          Sell new Product
+        </button></a>
+          
+    </div>
+    {% endblock %} {% endblock %}

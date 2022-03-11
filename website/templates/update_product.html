@@ -1,0 +1,52 @@
+{% extends "base.html" %} {% block title %}Update{% endblock %} {% block content %}
+    <h1 align="center">Update Product</h1>
+    
+    <form method="POST">
+      <label for="title">Product Name</label>
+      <input
+        type="text"
+        id="title"
+        name="title"
+        class="form-control"
+        placeholder="Enter Product Name"
+      />
+      
+      <label for="price">Product Price</label>
+      <input
+        type="text"
+        id="price"
+        name="price"
+        class="form-control"
+        placeholder="Enter Product price"
+      />
+      <label for="category">Category</label>
+      <select
+        id="category"
+        name="category"
+        class="form-control"
+        
+      >
+        <option selected>Choose...</option>
+        <option>Clothing</option>
+        <option>Accessories</option>
+        <option>Shoes</option>
+        <option>Home</option>
+      </select>
+      
+  
+      <label for="text">Product Description</label>
+      <textarea name="text" id="text" class="form-control"></textarea>
+      <br />
+      <div align="center">
+        <button type="submit" class="btn btn-primary">Post</button>
+        <a href="/home"
+        ><button type="button" class="btn btn-secondary">Back</button></a
+      >
+    </div>
+      </div>
+    </form>
+    <br />
+    <div align="center">
+  
+    </div>
+    {% endblock %}

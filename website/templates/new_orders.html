@@ -1,0 +1,64 @@
+{% extends "base.html" %} {% block title %}New Product{% endblock %} {% block content
+    %}
+    <h1 align="center">Sell New Product</h1>
+    
+    <form method="POST">
+      
+        <label for=" ref_num">Title</label>
+        <input
+          type="text"
+          id="ref_num"
+          name="ref_num"
+          class="form-control"
+          placeholder="Enter order title"
+        />
+        <label for="item1">Address</label>
+        <input
+          type="text"
+          id="item1"
+          name="item1"
+          class="form-control"
+          placeholder="Enter first product"
+          />
+
+      <label for="item2">Address</label>
+      <input
+        type="text"
+        id="item2"
+        name="item2"
+        class="form-control"
+        placeholder="Enter second product"
+        />
+
+      <label for="item3">Address</label>
+      <input
+        type="text"
+        id="item3"
+        name="item3"
+        class="form-control"
+        placeholder="Enter third product"
+        />
+      
+
+      <label for="address">Address</label>
+      <input
+        type="text"
+        id="address"
+        name="address"
+        class="form-control"
+        placeholder="Enter delivery address"
+      />
+      <br />
+      <div align="center">
+        <button type="submit" class="btn btn-primary">Post</button>
+        <a href="/home"
+        ><button type="button" class="btn btn-secondary">Back</button></a
+      >
+    </div>
+      </div>
+    </form>
+    <br />
+    <div align="center">
+  
+    </div>
+    {% endblock %}
