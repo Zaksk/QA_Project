@@ -107,4 +107,5 @@ The nav bar provides links which allow the user to create an account if they do 
 In this home page the user can create a product by pressing on the assigned button which will redirect them to another page and prompt them to fill up a product details.
 Once a product is created the user can decide to delete or update their post.
 You can also view users' post history by navigating as shown below:
+
 ![history](https://github.com/Zaksk/QA_Project/blob/main/new_top.png)
