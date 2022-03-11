@@ -15,7 +15,18 @@
 * [Future Improvements](#future-improvements)
 * [Footer](#footer)
 
+### Objective
+In this project I will be attempting to complete all the requirements set by our trainer to display what I have learnt during the last couple of weeks. 
 
+The main goal was to develop a fully functional python coded application capable to interact with the user through the implementation of CRUD(Create, Read, Update and Delete) Functionality.
+
+On top of this, I was also required to provide the following:
+* A clear documentation - Outlining the design, architecture and risk assessment
+* A relational database, which consists of at least two tables with a one-to-many relation
+* A Trello board
+* A front-end website using Flask
+* The code needed to be integrated via a Version Control System, built using a CI server and deployed to a cloud-based virtual machine
+* Test suites 
 
 ### My Approach
 To achieve this, I have decided to produce a simple product trading shop that must allow the user to do the following:
