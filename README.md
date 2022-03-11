@@ -12,7 +12,7 @@
 * [Front-End Design](#front-end-design)
 * [Known Issues](#known-issues)
 * [Future Improvements](#future-improvements)
-* [Footer](#footer)
+
 
 ### Objective
 In this project I will be attempting to complete all the requirements set by our trainer to display what I have learnt during the last couple of weeks. 
@@ -109,3 +109,8 @@ Once a product is created the user can decide to delete or update their post.
 You can also view users' post history by navigating as shown below:
 
 ![history](https://github.com/Zaksk/QA_Project/blob/main/new_top.png)
+
+
+### Future improvements 
+
+In future sprints, in addition to fixing some of the issues identified with the current version, I would like to add an option to allow users to amend their account details, as well as, purchase and leave reviews under products bought. I would also be looking to allow users to delete their accounts in case they decide to do so. 
