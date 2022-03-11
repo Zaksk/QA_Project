@@ -98,11 +98,14 @@ The likelihood and impact level 1(low Probability/Impact) to 5(High Probability/
 ### Front-end Design 
 Upon navigating to the app the user is presented with the login page:
 
-![login]()
+![login](https://github.com/Zaksk/QA_Project/blob/main/login.png)
 
 The nav bar provides links which allow the user to create an account if they do not have one otherwise. If an attempt to view the home is made, an error message will be displayed. User credentials are verified and if criteria are not met, again, warning messages will be shown. Once an account is created and the user has logged in the home page with all the products will be shown:
-
-![home]()
+![sign-up](https://github.com/Zaksk/QA_Project/blob/main/sign_up.png)
+![home](https://github.com/Zaksk/QA_Project/blob/main/home.png)
 
 In this home page the user can create a product by pressing on the assigned button which will redirect them to another page and prompt them to fill up a product details.
 Once a product is created the user can decide to delete or update their post.
+You can also view users' post history by navigating as shown below:
+
+![history](https://github.com/Zaksk/QA_Project/blob/main/new_top.png)
