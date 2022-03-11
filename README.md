@@ -26,7 +26,7 @@ On top of this, I was also required to provide the following:
 * A Trello board
 * A front-end website using Flask
 * The code needed to be integrated via a Version Control System, built using a CI server and deployed to a cloud-based virtual machine
-* Test suites
+* Test suites 
 
 ### My Approach
 To achieve this, I have decided to produce a simple product trading shop that must allow the user to do the following:
